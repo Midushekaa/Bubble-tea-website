@@ -1,0 +1,35 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo span {
+  color: #a349a4;
+}
+
+.btn-custom {
+  background-color: #a349a4;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #872c87;
+  color: #fff;
+}
+
+footer .ri {
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+footer .ri:hover {
+  color: #a349a4;
+}
+
+#home img {
+  max-width: 600px;  /* Increase max size */
+  width: 100%;       /* Still responsive */
+  height: auto;      /* Maintain aspect ratio */
+  margin: 0 auto;    /* Center horizontally */
+  display: block;    /* Make centering effective */
+}
